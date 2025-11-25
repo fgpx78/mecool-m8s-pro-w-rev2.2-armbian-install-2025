@@ -13,6 +13,8 @@ Because I decided to install Armbian on the SD, to avoid corrupting the NAND fla
 
 ## Finding the right image in the noise
 There's a lot of noise on the internet. The only two releases I found that worked on my device were
+
+
 - Armbian_25.11.0_amlogic_s905w_bookworm_5.15.196_server_2025.11.15.img.gz
 - Armbian_25.11.0_amlogic_s905w_trixie_6.1.158_server_2025.11.15.img.gz
 from https://github.com/ophub/amlogic-s9xxx-armbian/releases
@@ -41,11 +43,12 @@ A RESET should:
 
 ## How to connect?
 Since I don't have any HDMI output, I used SSH from a Windows PC in the same network. First, I used Angry IP (https://angryip.org) to discover the IP of the device - which sill have name ARMBIAN.
-(image)
+<img width="771" height="224" alt="angryip" src="https://github.com/user-attachments/assets/e4b5ca3d-a07d-4099-b234-6678574dcfd5" />
 
 Then I used ssh root@[ip found of the device in angryip] to connect to it, with the standard password 1234.
 This starts the confguration wizard.
 
+<img width="976" height="584" alt="armbian-runs" src="https://github.com/user-attachments/assets/62fb3c5c-82cb-4b46-8391-5b65464efd67" />
 
 From now on, you're alone :)
 ENJOY!
