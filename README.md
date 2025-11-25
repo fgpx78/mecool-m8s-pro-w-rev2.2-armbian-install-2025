@@ -44,13 +44,16 @@ A RESET should:
 ## How to connect?
 Since I don't have any HDMI output, I used SSH from a Windows PC in the same network. First, I used Angry IP (https://angryip.org) to discover the IP of the device - which sill have name ARMBIAN.
 
+<img width="771" height="224" alt="angryip" src="https://github.com/user-attachments/assets/bbbdb5d0-f9b1-4f82-8f45-42e2e6283671" />
+
 
 Then I used ssh root@[ip found of the device in angryip] to connect to it, with the standard password 1234.
-This starts the confguration wizard.
+This starts the configuration wizard:
+
+<img width="976" height="584" alt="armbian-runs" src="https://github.com/user-attachments/assets/945b88e9-b077-433b-87d6-86453f45bdcb" />
 
 
-
-From now on, you're alone :)
+From now on, you're on your own :)
 ENJOY!
 
 
