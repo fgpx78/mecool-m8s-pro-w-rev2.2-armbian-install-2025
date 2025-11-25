@@ -2,7 +2,7 @@
 I bought an m8s pro w (from now on m8s or mecool) for 2 dollars on an auction site. Given the Amlogic S905W processor, my intention was to install Linux and make it a very small home server to host 2 simple LAMP websites.
 
 The experience has been very frustrating, but after a couple of days I finally managed to make it work.
-The documentation online either mainly refers to old images, or is not clear enough. Everything looks overly complicated, when **Actually, it turns out that nowadays Armbian boots seamlessly on m8s s905w, without ANY MODIFICATION to the image burnt on the USB key / SD card.**
+The documentation online either mainly refers to old images and metodologies, or is not clear enough. Everything looks overly complicated, when **Actually, it turns out that nowadays Armbian boots seamlessly on m8s s905w, without ANY MODIFICATION to the image burnt on the USB key / SD card.**
 
 That's why I decided to make a comprehensive guide / HOW TO.
 
@@ -26,6 +26,7 @@ There's a lot of noise on the internet. The only two releases I found that worke
 
 - Armbian_25.11.0_amlogic_s905w_bookworm_5.15.196_server_2025.11.15.img.gz
 - Armbian_25.11.0_amlogic_s905w_trixie_6.1.158_server_2025.11.15.img.gz
+  
 from https://github.com/ophub/amlogic-s9xxx-armbian/releases
 
 I tried the installation on
