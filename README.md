@@ -64,7 +64,13 @@ This starts the configuration wizard:
 From now on, you're on your own :)
 ENJOY!
 
+## Updates:
+Not working HDMI was due to wrong DTB. I switched from meson-glx-s905-tx3-mini.dtb to meson-gxl-s905w-p281.dtb (changing it in the /uEnv.txt file), restarted, and magically I get HDMI output.
+ChatGPT really helped idntifying this problem.
 
+## Next steps:
+- Install a LAMP/LEMP server
+- Make internal Wi-fi work or find a Wi-Fi dongle supported by Armbian
 
 
 
