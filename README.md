@@ -2,7 +2,7 @@
 I bought an m8s pro w (from now on m8s or mecool) for 2 dollars on an auction site. Given the Amlogic S905W processor, my intention was to install Linux and make it a very small home server to host 2 simple LAMP websites.
 
 The experience has been very frustrating, but after a couple of days I finally managed to make it work.
-The documentation online either mainly refers to old images and metodologies, or is not clear enough. Everything looks overly complicated, when **Actually, it turns out that nowadays Armbian boots seamlessly on m8s s905w, without ANY MODIFICATION to the image burnt on the USB key / SD card.**
+The documentation online either mainly refers to old images and metodologies, or is not clear enough. Everything looks overly complicated, when **Actually, it turns out that nowadays Armbian boots seamlessly on m8s s905w, without ANY MODIFICATION to the image burnt on the USB key / SD card.** (Update: I had to change .dtb to meson-gxl-s905w-p281.dtb to make HDMI output work)
 
 That's why I decided to make a comprehensive guide / HOW TO.
 
